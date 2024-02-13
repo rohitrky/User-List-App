@@ -1,8 +1,6 @@
 
 
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import UserList from './components/UserList';
 import './App.css';
 
 const App = () => {
@@ -12,6 +10,7 @@ const App = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [searchTerm, setSearchTerm] = useState('');
 
+  
   const fetchUsers = async () => {
     try {
       setLoading(true);
@@ -25,7 +24,7 @@ const App = () => {
       setError('Error fetching data');
     }
   };
-
+ 
   useEffect(() => {
     fetchUsers();
   }, [currentPage]);
