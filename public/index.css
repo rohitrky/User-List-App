@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://lumiere-a.akamaihd.net/v1/images/star-wars-backgrounds-14_856985d9.jpeg');
+  background-image: url('./Background_img.jpeg');
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
