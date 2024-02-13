@@ -1,5 +1,9 @@
 
 body {
+  background-image: url('../public/Background_img.jpeg');
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
